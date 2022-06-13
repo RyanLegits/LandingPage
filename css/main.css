@@ -7,6 +7,31 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
-p {
-	color: lightblue;
+h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.header {
+	display: flex;
+	padding: 1em 5em;
+	background: #1F2937;
+	color: #F9FAF8;
+}
+
+.header-logo {
+	flex: 1;
+}
+
+.nav-menu {
+	display: flex;
+	list-style-type: none;
+	justify-content: right;
+	align-items: center;
+	color: #E5E7EB;
+	font-size: 1.1rem;
+}
+
+.nav-menu li {
+	padding-right: 2em;
 }
