@@ -1,10 +1,19 @@
 * {
 	margin: 0;
 	padding: 0;
+	border: 1px solid red;
 }
 
 html {
 	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-size: 1.1rem;
+}
+
+h1 {
+	font-size: 3rem;
 }
 
 h3 {
@@ -21,6 +30,7 @@ h3 {
 
 .header-logo {
 	flex: 1;
+	padding-right: 2em;
 }
 
 .nav-menu {
@@ -34,4 +44,39 @@ h3 {
 
 .nav-menu li {
 	padding-right: 2em;
+}
+
+.intro {
+	display: flex;
+	background: #1F2937;
+	color: #E5E7EB;
+	padding: 7em;
+	padding-right: 6em;
+}
+
+.signup p{
+	color: #E5E7EB;
+}
+
+.intro div {
+	flex: 1;
+}
+
+.image {
+	display: flex;
+	background-color: #6D747D;
+}
+
+.image p {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.signup-btn {
+	background-color: #3882F6;
+	margin-top: 1em;
+	padding: .5em 2em;
+	border-radius: 5px;
 }
