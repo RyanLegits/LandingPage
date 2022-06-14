@@ -1,7 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	border: 1px solid red;
 }
 
 html {
@@ -14,6 +13,10 @@ p {
 
 h1 {
 	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
 }
 
 h3 {
@@ -75,8 +78,99 @@ h3 {
 }
 
 .signup-btn {
-	background-color: #3882F6;
-	margin-top: 1em;
 	padding: .5em 2em;
 	border-radius: 5px;
+	border-width: 2px;
+}
+
+#btn-top {
+	background-color: #3882F6;
+	margin-top: 1em;
+	border: none;
+}
+
+.info {
+	display: flex;
+	padding: 0em 5em 5em 5em;
+	gap: 3em;
+	justify-content: center;
+}
+
+.info-header {
+	display: flex;
+	justify-content: center;
+	padding: 1em;
+}
+
+.infosec {
+	max-width: 181px;
+}
+
+.infobox {
+	height: 175px;
+	width: 175px;
+	border: 3px solid #3882F6;
+	border-radius: 10px;
+}
+
+.infotext {
+	padding-top: 5px;
+	color: #4B5563;
+	text-align: center;
+	font-size: 1.1rem;
+}
+
+.quote {
+	padding: 5em 10em;
+	background-color: #E5E7EB;
+}
+
+.quotetext {
+	font-size: 2.5rem;
+	font-style: italic;
+	color: #1F2937;
+}
+
+.quotename{
+	text-align: right;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.call {
+	padding: 5em;
+}
+
+.action {
+	background-color: #3882F6;
+	border-radius: 10px;
+	padding: 3em 7em;
+	display: flex;
+	align-items: center;
+}
+
+.calltxt {
+	color: #FFFFFF;
+	font-size: 1.5em;
+}
+
+.signuptxt {
+	color: #D0DAEC;
+}
+
+#btn-bottom-container {
+	margin-left: auto;
+}
+
+#btn-bottom {
+	background-color: #3882F6;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+.footer {
+	color: #FFFFFF;
+	background-color: #1F2937;
+	text-align: center;
+	padding: 2.5em;
 }
